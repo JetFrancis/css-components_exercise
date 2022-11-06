@@ -14,29 +14,54 @@ p {
   padding: 0;
 }
 
+h3 {
+  font-size: 15px;
+}
+
 .container {
   display: grid;
   min-height: 90vh;
   place-content: center;
 }
 
-/*added*/
 .container__tittle {
   color: #c30052;
+  font-size: 30px;
 }
 
 .card {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   min-width: 25rem;
+  padding: 10px 10px;
+  margin-bottom: 10px;
   text-align: center; /*added*/
 }
 
+.card__tittle {
+  font-size: 2.5rem;
+  color: #767676;
+}
+
+.card__button {
+  color: white;
+  font-size: 15px;
+}
+
+.card__button--big {
+  padding: 10px 20px;
+}
 
 .card-horizontal {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   max-width: 32rem;
+  margin: 0px 25px;
+  padding: 25px 10px;
+}
+
+.card-horizontal__paragraph {
+  font-size: 1.3rem;
 }
 
 .box {
@@ -57,7 +82,6 @@ button {
   cursor: pointer;
   display: block;
   margin: 0px 100px;
-  color: white; /*added*/
 }
 
 .wrapper {
@@ -68,20 +92,19 @@ button {
   max-width: 90vw;
 }
 
-/*just added*/
-.wrapper-color {
+.wrapper--color {
   color: white;
 }
 
-.box--sunrise{
+.bg-sunrise{
   background:  linear-gradient(90deg, #d53369 0%, #daae51 100%)
 }
 
-.box--frost {
+.bg-frost {
   background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
 }
 
-.box--lime {
+.bg-lime {
   background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
 }
 
